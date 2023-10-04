@@ -16,8 +16,7 @@ class Galton {
 class Simulation
 {
 private:
- std::vector<int> matrix_{};
- int row_{};
+ int number_{};
  int col_{};
 
 public:
