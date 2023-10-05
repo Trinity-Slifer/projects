@@ -20,7 +20,7 @@ private:
  int col_{};
 
 public:
- Simulation(std::vector<int> mat, int col);
+ Simulation(int number, int col);
  int sgetCol() const;
  int sGet_ij(int i, int j);
  void evolve(Galton g);
